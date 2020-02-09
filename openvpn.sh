@@ -123,7 +123,7 @@ openvpn --genkey --secret /etc/openvpn/ta.key
 
 # Generate server.conf
 echo "port $PORT
-proto $PROTOCOL-server
+proto $PROTOCOL
 dev tun
 sndbuf 0
 rcvbuf 0
@@ -230,7 +230,7 @@ fi
 # client-common.txt is created so we have a template to add further users later
 echo "client
 dev tun
-proto $PROTOCOL-client
+proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
 remote $HOST $PORT
