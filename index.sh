@@ -16,7 +16,7 @@ echo "<h1>Dauriz OpenVPN Server</h1>"
 
 eval `echo "${QUERY_STRING}"|tr '&' ';'`
 
-IP=$(wget -4qO- "http://whatismyip.akamai.com/")
+
 
 newclient () {
 	# Generates the custom client.ovpn
