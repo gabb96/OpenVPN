@@ -5,7 +5,7 @@ ADMINPASSWORD="secret"
 DNS1="10.0.10.3"
 DNS2=""
 PROTOCOL=tcp
-PORT=443
+PORT=8443
 HOST="vpn.dauriz.site"
 
 
