@@ -6,7 +6,7 @@ DNS1="10.0.10.3"
 DNS2=""
 PROTOCOL=tcp
 PORT=443
-HOST="dauriz.site"
+HOST="vpn.dauriz.site"
 
 
 for i in "$@"
